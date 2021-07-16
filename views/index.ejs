@@ -8,5 +8,12 @@
 </head>
 <body>
     Welcome to Home!
+    <a href="/villager/movein">Move in new resident</a>
+    <h4>Current Residents:</h4>
+    <ul>
+        <% villagers.forEach(villager => { %>
+            <li><a href="/villager/<%=villager.name%>"><%= villager.name %></a></li>
+       <% }) %>
+    </ul>
 </body>
 </html>

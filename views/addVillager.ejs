@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Move in Resident</title>
+</head>
+<body>
+    <h2>What resident is moving in?</h2>
+    <form action="/villager" method="POST">
+        <label for="name">Name</label>
+        <input type=text name="name" placeholder="name"/>
+        <label for="species">Species</label>
+        <input type=text name="species" placeholder="species"/>
+        <label for="birthday">Birthday</label>
+        <input type=text name="birthday" placeholder="birthday"/>
+        <label for="personality">Personality</label>
+        <input type=text name="personality" placeholder="personality type"/>
+        <label for="img">Image Link</label>
+        <input type=text name="img" placeholder="image link"/>
+        <input type="submit" name="Submit">
+    </form>
+</body>
+</html>

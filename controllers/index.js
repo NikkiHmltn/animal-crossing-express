@@ -1,6 +1,18 @@
+const Villager = require('../models/villager');
+
 let index = (req, res) => {
-    res.render('index')
+    Villager.find({}, (err, foundVillagers) => {
+        console.log(foundVillagers)
+        if(err) console.log(err)
+        else {
+        res.render('index', {
+            villagers: foundVillagers
+        })
+        }
+    })
 }
+
+
 
 module.exports = {
     index
