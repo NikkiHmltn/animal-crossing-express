@@ -1,0 +1,19 @@
+{
+  "name": "animal-crossing-express",
+  "version": "1.0.0",
+  "description": "This is a repo to practice creating a NEM stack.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikkiHmltn/animal-crossing-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikkiHmltn/animal-crossing-express/issues"
+  },
+  "homepage": "https://github.com/NikkiHmltn/animal-crossing-express#readme"
+}
